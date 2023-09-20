@@ -22,10 +22,7 @@
         "installer-name": "silverstripe-gridfieldsitetreebuttons",
         "branch-alias": {
             "dev-main": "1.x-dev"
-        },
-        "expose": [
-            "client/dist"
-        ]
+        }
     },
     "autoload": {
         "psr-4": {
