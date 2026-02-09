@@ -44,7 +44,7 @@ class GridFieldAddNewSiteTreeItemButton extends GridFieldAddNewButton
             'NewLink' => sprintf(
                 "admin/pages/add/AddForm/?action_doAdd=1&ParentID=%u&PageType=%s&SecurityID=%s",
                 $this->getParentID(),
-                str_replace('/', '\'', $gridField->getModelClass()),
+                $gridField->getModelClass(),
                 $gridField->getForm()->getSecurityToken()->getValue()
             ),
             'ButtonName' => $this->buttonName,
